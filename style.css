@@ -1,0 +1,91 @@
+
+.slider .indicators .indicator-item.active {
+    background-color: #2196f3 !important;
+}
+
+#navbar {
+    position: fixed;
+    left: 0;
+    
+    
+} 
+
+
+
+.navbar {
+    border: none;
+    
+}
+
+.nav-transp {
+    background-color: transparent;
+    
+    transition: background-color 0.5s ease 0s;
+   
+}
+
+.nav-white {
+    background-color: white;
+    
+    transition: background-color 0.5s ease 0s;
+}
+
+.sidenav-opacity{
+    background-color: rgba(0,0,0,0.1) !important;
+}
+
+
+.brandlogo-blue{
+    color: #2196f3;
+    position: absolute;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+          transform: translateX(-50%);
+    display: inline-block;
+    font-size: 2.1rem;
+    padding: 0;
+}
+
+
+#welcome-section  h1{
+    color: white;
+   
+}
+
+h1, h2, h3 {
+    color:  #2196f3;
+}
+#welcome-section {
+    height: 100vh;
+}
+
+ /* label focus color */
+ .input-field input[type=text]:focus + label {
+    color:  #2196f3 !important;
+}
+/* label underline focus color */
+  .input-field input[type=text]:focus {
+    border-bottom: 1px solid  #2196f3 !important;
+    box-shadow: 0 1px 0 0  #2196f3 !important;
+  }
+
+ /* label focus color */
+ .input-field input[type=email]:focus + label {
+    color:  #2196f3 !important;
+}
+/* label underline focus color */
+  .input-field input[type=email]:focus {
+    border-bottom: 1px solid  #2196f3 !important;
+    box-shadow: 0 1px 0 0  #2196f3 !important;
+  }
+
+  .col .row {
+    margin-left: 0.1rem !important;
+    margin-right: 0.1rem !important;
+  }
+
+   @media(max-width: 600px){
+    #navbar {
+        position: fixed;
+    }
+   }
